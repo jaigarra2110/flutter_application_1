@@ -1,0 +1,39 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+# Evita publicar el paquete en pub.dev
+publish_to: 'none' 
+
+# Versión del proyecto
+version: 1.0.0+1
+
+# Especificación del entorno de SDK de Dart
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+# Dependencias necesarias para el proyecto
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+
+# Dependencias para desarrollo y testing
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Configuración específica de Flutter
+flutter:
+  uses-material-design: true
+
+  # Sección para agregar imágenes o fuentes personalizadas
+  # assets:
+  #   - images/my_image.png
+
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
